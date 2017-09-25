@@ -50,3 +50,37 @@ __AppWidgetProvider示例代码,可根据具体的需求复写不同的方法__
         super.onEnabled(context);
     }
     }
+
+---
+
+__编写appwidget_provider文件__
+
+1. 在res目录下面创建xml文件
+2. 在xml目录下面创建appwidget_provider文件
+
+ 示例：
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:initialLayout="@layout/activity_main"
+                        android:minHeight="180dp"
+                        android:minWidth="180dp"
+                        android:resizeMode="horizontal|vertical"
+                        android:widgetCategory="home_screen|keyguard"
+         >
+        </appwidget-provider>
+
+---
+
+**在清单文件里面配置信息**
+
+      <receiver android:name=".AppWidget">
+         <intent-filter>
+              <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+         </intent-filter>
+      </receiver>
+
+
+在清单文件里面注册这个receiver,并且添加这个action <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+
+只有添加了这个action  程序才默认是appwidget  否则和普通的广播一样的
