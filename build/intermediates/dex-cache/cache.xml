@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/wscn/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/wscn/projects/AppWidget/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_eba893c6561197f8beb843e6f848f54e050b2a1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/wscn/.android/build-cache/5c3e908206249f2ee22f5f863484f0c16d8eec06/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/wscn/projects/AppWidget/app/build/intermediates/pre-dexed/debug/classes_e982977e23488b23c5e1ec95fbb2377a37dcfc5f.jar" />
+    </item>
+
+</items>

@@ -92,4 +92,33 @@ __编写appwidget_provider文件__
 
 ***
 
+**appWidget注意事项**
+
+appwidget 对使用的控件是有局限性的 只能使用如下的一些控件：
+
+FrameLayout
+LinearLayout
+RelativeLayout
+GridLayout
+AnalogClock
+Button
+Chronometer
+ImageButton
+ImageView
+ProgressBar
+TextView
+ViewFlipper
+ListView
+GridView
+StackView
+AdapterViewFlipper
+
+大家想可以了解RemoteView 就能知道为什么对控件是有局限性了
+
+***
+
 **效果图**
+
+![](WechatIMG23.jpeg)
+
+![](WechatIMG25.jpeg)
