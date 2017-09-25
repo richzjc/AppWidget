@@ -78,9 +78,18 @@ __编写appwidget_provider文件__
          <intent-filter>
               <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
          </intent-filter>
+          <meta-data
+               android:name="android.appwidget.provider"
+               android:resource="@xml/appwidget"/>
       </receiver>
 
 
 在清单文件里面注册这个receiver,并且添加这个action <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
 
 只有添加了这个action  程序才默认是appwidget  否则和普通的广播一样的
+
+并且必须要添加meta_data属性  这样一个简单的app_widget就实现了
+
+***
+
+**效果图**

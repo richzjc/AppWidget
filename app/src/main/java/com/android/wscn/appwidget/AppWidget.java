@@ -5,6 +5,7 @@ import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.RemoteViews;
 
 /**
  * Created by wscn on 17/9/25.
@@ -24,7 +25,7 @@ public class AppWidget extends AppWidgetProvider {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        super.onReceive(context, intent);
+        RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.activity_main);
     }
 
     @Override
