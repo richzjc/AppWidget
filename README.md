@@ -16,7 +16,7 @@ App Widget是应用程序窗口小部件（Widget）是微型的应用程序视�
  * onReceive
 
 ---
-__AppWidgetProvider示例代码__
+__AppWidgetProvider示例代码,可根据具体的需求复写不同的方法__
 
     public class AppWidget extends AppWidgetProvider {
 
