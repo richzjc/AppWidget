@@ -1,5 +1,3 @@
-# AppWidget
-实现一个窗口小组件的功能
 
 # AppWidget 简介
 App Widget是应用程序窗口小部件（Widget）是微型的应用程序视图，它可以被嵌入到其它应用程序中（比如桌面）并接收周期性的更新。你可以通过一个App Widget Provider来发布一个Widget。
